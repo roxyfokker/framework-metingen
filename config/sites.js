@@ -14,12 +14,10 @@ export default {
 		frameworks: {
 			name: "Frameworks",
 			enabled: true,
-			description: "Techstack-onderzoek: SvelteKit, Hugo, 11ty en React/Next.",
+			description: "Techstack-onderzoek: SvelteKit en 11ty.",
 			sites: [
-				{ name: "SvelteKit", url: "https://techstack-svelte.netlify.app/" },
-				{ name: "Hugo", url: "https://techstack-hugo.netlify.app/" },
-				{ name: "11ty", url: "https://techstack-11-ty.netlify.app/" },
-				{ name: "React/Next", url: "https://techstack-reactnext.netlify.app/" },
+				{ name: "SvelteKit", url: "https://techstack-svelte-8nswdlssb-roxy-19f1.vercel.app/" },
+				{ name: "11ty", url: "https://techstack-11ty-git-11ty-roxy-19f1.vercel.app/" },
 			],
 		},
 	},
