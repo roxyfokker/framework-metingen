@@ -1,0 +1,436 @@
+{
+  "url": "https://techstack-svelte-8nswdlssb-roxy-19f1.vercel.app/",
+  "name": "SvelteKit",
+  "group": "frameworks",
+  "groupName": "Frameworks",
+  "timestamp": 1795697405735,
+  "date": "2026-11-26T12:50:05.735Z",
+  "runId": "2026-11-26T12-49-59-179Z",
+  "formFactor": "mobile",
+  "requestedRuns": 10,
+  "completedRuns": 10,
+  "durationMs": 70301,
+  "error": null,
+  "variance": {
+    "min": 91,
+    "max": 100,
+    "spread": 9,
+    "runs": 10
+  },
+  "lab": {
+    "requestedUrl": "https://techstack-svelte-8nswdlssb-roxy-19f1.vercel.app/",
+    "finalUrl": "https://techstack-svelte-8nswdlssb-roxy-19f1.vercel.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 94,
+      "best-practices": 96,
+      "seo": 58,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 811,
+      "lcp": 811,
+      "si": 811,
+      "tbt": 1,
+      "tti": 2022,
+      "cls": 0.013,
+      "ttfb": 621,
+      "maxPotentialFid": 51,
+      "serverResponseTime": 2,
+      "networkRtt": 0,
+      "networkServerLatency": 37.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 4.1,
+      "elementRenderDelay": 133.8
+    },
+    "weight": {
+      "total": 230137,
+      "requests": 26,
+      "mainDocument": 4487,
+      "byType": {
+        "total": {
+          "bytes": 230137,
+          "requests": 26
+        },
+        "image": {
+          "bytes": 90051,
+          "requests": 8
+        },
+        "font": {
+          "bytes": 68768,
+          "requests": 4
+        },
+        "script": {
+          "bytes": 45424,
+          "requests": 11
+        },
+        "stylesheet": {
+          "bytes": 21407,
+          "requests": 2
+        },
+        "document": {
+          "bytes": 4487,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 78,
+          "requests": 1
+        }
+      },
+      "scripts": 11,
+      "stylesheets": 2,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 78,
+      "mainThreadMs": 0.1,
+      "top": [
+        {
+          "entity": "vercel.live",
+          "bytes": 78,
+          "mainThreadMs": 0.1,
+          "byType": {
+            "script": 78
+          },
+          "typedBytes": 78
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 423.1,
+      "byGroup": {
+        "other": 177.6,
+        "scriptEvaluation": 136.1,
+        "styleLayout": 79.9,
+        "paintCompositeRender": 13.8,
+        "parseHTML": 12.1,
+        "scriptParseCompile": 3.5
+      },
+      "bootupMs": 135.9,
+      "longTasks": 1,
+      "longestTaskMs": 51
+    },
+    "dom": {
+      "elements": 136,
+      "depth": 10,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 16833,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 150,
+      "renderBlockingCount": 2,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 21,
+      "failingNodes": 3,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 2
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 1,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 5
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 9,
+      "failing": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "weight": 4.043478260869565,
+          "nodes": 1
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 5,
+      "baselineLimitedFeatures": 32
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2491,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-26T12:50:17.620Z",
+      "runtimeMs": 6213.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": {
+      "id": "sveltekit",
+      "name": "SvelteKit",
+      "icon": "Svelte",
+      "version": null,
+      "source": "dom",
+      "raw": null
+    },
+    "probe": {
+      "metas": [],
+      "marks": [
+        "sveltekit",
+        "svelte"
+      ],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1:iad1:iad1::iad1::4dzzt-1795697474700-152e89b77d28"
+    },
+    "violations": 5,
+    "passes": 166,
+    "incomplete": 8,
+    "violationRules": 4,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 2,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".sm",
+            "snippet": "<a href=\"/mission\" class=\"sm bold svelte-4c99mh\" style=\"--link-color: var(--color-accent-mid);\">"
+          },
+          {
+            "selector": ".quote",
+            "snippet": "<p class=\"quote svelte-gv7xsr\">Ad Astra, Ingenio Iuventutis.</p>"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".location.svelte-o3exhp:nth-child(1) > h4",
+            "snippet": "<h4 class=\"label visually-hidden svelte-o3exhp\">Leiden</h4>"
+          }
+        ]
+      },
+      {
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/page-has-heading-one?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": "html",
+            "snippet": "<html lang=\"nl\">"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".svelte-q2sw1a",
+            "snippet": "<ul class=\"svelte-q2sw1a\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "390d53f73150",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"1vhdplt\"",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "390d53f73150",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"1vhdplt\"",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "390d53f73150",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"1vhdplt\"",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "390d53f73150",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"1vhdplt\"",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "390d53f73150",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"1vhdplt\"",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "390d53f73150",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"1vhdplt\"",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "390d53f73150",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"1vhdplt\"",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "390d53f73150",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"1vhdplt\"",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "390d53f73150",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"1vhdplt\"",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "390d53f73150",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "0",
+          "etag": "W/\"1vhdplt\"",
+          "x-vercel-cache": "MISS"
+        }
+      },
+      {
+        "hash": "b2643a28b6e1",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"1vhdplt\"",
+          "x-vercel-cache": "MISS"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
