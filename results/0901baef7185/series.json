@@ -1,0 +1,3 @@
+{"version":1,"url":"https://techstack-11ty-git-11ty-roxy-19f1.vercel.app/","updated":"2026-11-26T12:51:11.610Z","points":[
+{"t":1795697405799,"lh":"13.6.0","performance":100,"accessibility":92,"best-practices":92,"seo":54,"lcp":795,"cls":0.001,"tbt":0,"fcp":795,"si":795,"ttfb":608,"total":184859,"requests":28,"bytes":78,"mainThreadMs":0.2,"unusedJsBytes":0,"unusedCssBytes":0,"mainThreadTotal":211.8,"longTasks":0,"elements":126,"failingCount":2,"failingNodes":2,"axeViolations":3,"axePasses":148,"bench":2557.5,"runs":10,"reqRuns":10,"ms":65808,"spread":2}
+]}
