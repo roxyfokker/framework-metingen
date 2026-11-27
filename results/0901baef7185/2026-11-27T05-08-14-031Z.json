@@ -1,0 +1,425 @@
+{
+  "url": "https://techstack-11ty-git-11ty-roxy-19f1.vercel.app/",
+  "name": "11ty",
+  "group": "frameworks",
+  "groupName": "Frameworks",
+  "timestamp": 1795756094031,
+  "date": "2026-11-27T05:08:14.031Z",
+  "runId": "2026-11-27T05-08-08-975Z",
+  "formFactor": "mobile",
+  "requestedRuns": 10,
+  "completedRuns": 10,
+  "durationMs": 68469,
+  "error": null,
+  "variance": {
+    "min": 100,
+    "max": 100,
+    "spread": 0,
+    "runs": 10
+  },
+  "lab": {
+    "requestedUrl": "https://techstack-11ty-git-11ty-roxy-19f1.vercel.app/",
+    "finalUrl": "https://techstack-11ty-git-11ty-roxy-19f1.vercel.app/",
+    "redirect": null,
+    "statusCode": "ok",
+    "scores": {
+      "performance": 100,
+      "accessibility": 92,
+      "best-practices": 92,
+      "seo": 54,
+      "agentic-browsing": 100
+    },
+    "timings": {
+      "fcp": 809,
+      "lcp": 809,
+      "si": 809,
+      "tbt": 0,
+      "tti": 809,
+      "cls": 0.001,
+      "ttfb": 622,
+      "maxPotentialFid": 16,
+      "serverResponseTime": 16,
+      "networkRtt": 0,
+      "networkServerLatency": 48.9
+    },
+    "lcpBreakdown": {
+      "timeToFirstByte": 17.2,
+      "elementRenderDelay": 175.8
+    },
+    "weight": {
+      "total": 184930,
+      "requests": 28,
+      "mainDocument": 3225,
+      "byType": {
+        "total": {
+          "bytes": 184741,
+          "requests": 27
+        },
+        "image": {
+          "bytes": 103016,
+          "requests": 7
+        },
+        "font": {
+          "bytes": 68701,
+          "requests": 4
+        },
+        "stylesheet": {
+          "bytes": 9721,
+          "requests": 14
+        },
+        "document": {
+          "bytes": 3225,
+          "requests": 1
+        },
+        "script": {
+          "bytes": 78,
+          "requests": 1
+        },
+        "media": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "other": {
+          "bytes": 0,
+          "requests": 0
+        },
+        "third-party": {
+          "bytes": 78,
+          "requests": 1
+        }
+      },
+      "scripts": 1,
+      "stylesheets": 14,
+      "fonts": 4
+    },
+    "thirdParty": {
+      "count": 1,
+      "bytes": 78,
+      "mainThreadMs": 0.2,
+      "top": [
+        {
+          "entity": "vercel.live",
+          "bytes": 78,
+          "mainThreadMs": 0.2,
+          "byType": {
+            "script": 78
+          },
+          "typedBytes": 78
+        }
+      ]
+    },
+    "mainThread": {
+      "total": 233.4,
+      "byGroup": {
+        "other": 129.3,
+        "styleLayout": 55,
+        "parseHTML": 21.2,
+        "paintCompositeRender": 13.1,
+        "scriptEvaluation": 12.6,
+        "scriptParseCompile": 2.3
+      },
+      "bootupMs": 12.3,
+      "longTasks": 0,
+      "longestTaskMs": null
+    },
+    "dom": {
+      "elements": 126,
+      "depth": 8,
+      "maxChildren": 7
+    },
+    "waste": {
+      "unusedJsBytes": 0,
+      "unusedCssBytes": 0,
+      "legacyJsBytes": 0,
+      "duplicatedJsBytes": 0,
+      "unminifiedJsBytes": 0,
+      "unminifiedCssBytes": 0,
+      "renderBlockingMs": 0,
+      "renderBlockingCount": 14,
+      "poorlyCachedBytes": 0,
+      "poorlyCachedCount": 0
+    },
+    "accessibility": {
+      "failingCount": 2,
+      "applicableCount": 17,
+      "failingNodes": 2,
+      "failing": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "weight": 7,
+          "nodes": 1
+        },
+        {
+          "id": "heading-order",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "weight": 3,
+          "nodes": 1
+        }
+      ]
+    },
+    "bestPractices": {
+      "failingCount": 2,
+      "applicableCount": 18,
+      "failing": [
+        {
+          "id": "image-aspect-ratio",
+          "title": "Displays images with incorrect aspect ratio",
+          "weight": 1,
+          "nodes": 2
+        },
+        {
+          "id": "errors-in-console",
+          "title": "Browser errors were logged to the console",
+          "weight": 1,
+          "nodes": 1
+        }
+      ]
+    },
+    "seo": {
+      "failingCount": 2,
+      "applicableCount": 8,
+      "failing": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "weight": 4.043478260869565,
+          "nodes": 1
+        },
+        {
+          "id": "meta-description",
+          "title": "Document does not have a meta description",
+          "weight": 1,
+          "nodes": null
+        }
+      ]
+    },
+    "hygiene": {
+      "https": 1,
+      "hsts": null,
+      "csp": 1,
+      "clickjacking": 1,
+      "originIsolation": 1,
+      "trustedTypes": 1,
+      "bfCache": 1,
+      "bfCacheFailures": 0,
+      "protocol": "h2",
+      "legacyHttpRequests": 0,
+      "redirectMs": 0,
+      "consoleErrors": 1,
+      "baselineLimitedFeatures": 26
+    },
+    "environment": {
+      "lighthouseVersion": "13.6.0",
+      "benchmarkIndex": 2753,
+      "formFactor": "mobile",
+      "throttlingMethod": "simulate",
+      "userAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Mobile Safari/537.36",
+      "fetchTime": "2026-11-27T05:08:57.406Z",
+      "runtimeMs": 5987.2
+    }
+  },
+  "field": null,
+  "axe": {
+    "navigationTimedOut": false,
+    "generator": null,
+    "probe": {
+      "metas": [],
+      "marks": [],
+      "markVersions": {}
+    },
+    "interstitial": null,
+    "host": {
+      "id": "vercel",
+      "name": "Vercel",
+      "icon": "Vercel",
+      "source": "x-vercel-id"
+    },
+    "headers": {
+      "server": "Vercel",
+      "x-vercel-id": "iad1:iad1:iad1::nxgn2-1795756161087-9dbd08411b32"
+    },
+    "violations": 3,
+    "passes": 148,
+    "incomplete": 13,
+    "violationRules": 3,
+    "version": "4.14.0",
+    "top": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1,
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".link",
+            "snippet": "<a href=\"/assignments\" class=\"link link--sm link--bold\" style=\"--link-color: var(--color-accent-mid);\">"
+          }
+        ]
+      },
+      {
+        "id": "heading-order",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "Heading levels should only increase by one",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/heading-order?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".location:nth-child(1) > h4",
+            "snippet": "<h4 class=\"label visually-hidden\">Leiden</h4>"
+          }
+        ]
+      },
+      {
+        "id": "region",
+        "impact": "moderate",
+        "nodes": 1,
+        "help": "All page content should be contained by landmarks",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/region?application=axe-puppeteer",
+        "samples": [
+          {
+            "selector": ".location-component",
+            "snippet": "<ul class=\"location-component\">"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "render": {
+    "samples": [
+      {
+        "hash": "4c996d71d8da",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39812",
+          "etag": "W/\"00766ecdbeb0342fa5536d6143ffec67\"",
+          "last-modified": "Thu, 26 Nov 2026 18:04:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4c996d71d8da",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39820",
+          "etag": "W/\"00766ecdbeb0342fa5536d6143ffec67\"",
+          "last-modified": "Thu, 26 Nov 2026 18:04:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4c996d71d8da",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39827",
+          "etag": "W/\"00766ecdbeb0342fa5536d6143ffec67\"",
+          "last-modified": "Thu, 26 Nov 2026 18:04:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4c996d71d8da",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39833",
+          "etag": "W/\"00766ecdbeb0342fa5536d6143ffec67\"",
+          "last-modified": "Thu, 26 Nov 2026 18:04:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4c996d71d8da",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39840",
+          "etag": "W/\"00766ecdbeb0342fa5536d6143ffec67\"",
+          "last-modified": "Thu, 26 Nov 2026 18:04:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4c996d71d8da",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39847",
+          "etag": "W/\"00766ecdbeb0342fa5536d6143ffec67\"",
+          "last-modified": "Thu, 26 Nov 2026 18:04:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4c996d71d8da",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39853",
+          "etag": "W/\"00766ecdbeb0342fa5536d6143ffec67\"",
+          "last-modified": "Thu, 26 Nov 2026 18:04:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4c996d71d8da",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39859",
+          "etag": "W/\"00766ecdbeb0342fa5536d6143ffec67\"",
+          "last-modified": "Thu, 26 Nov 2026 18:04:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4c996d71d8da",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39865",
+          "etag": "W/\"00766ecdbeb0342fa5536d6143ffec67\"",
+          "last-modified": "Thu, 26 Nov 2026 18:04:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "4c996d71d8da",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "age": "39871",
+          "etag": "W/\"00766ecdbeb0342fa5536d6143ffec67\"",
+          "last-modified": "Thu, 26 Nov 2026 18:04:44 GMT",
+          "x-vercel-cache": "HIT"
+        }
+      },
+      {
+        "hash": "b039ad89451a",
+        "nonce": null,
+        "stamp": null,
+        "marks": [],
+        "headers": {
+          "etag": "\"00766ecdbeb0342fa5536d6143ffec67\"",
+          "x-vercel-cache": "HIT"
+        }
+      }
+    ]
+  },
+  "consecutiveFailures": 0
+}
